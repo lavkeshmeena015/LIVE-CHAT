@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(rgba(92,100,221) , rgb(142, 160, 209));
+    height: 100vh;
+    overflow-y: auto;
+}
+nav{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    height: 40px;
+}
+#heading{
+    align-content: center;
+    text-align: center;
+}
+.show-msg{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.my-container{
+    height: 70vh;
+    border: 3px solid rgb(9 9 9);
+    width: 60vw;
+    padding: 30px;
+    overflow-y: auto;   
+}
+.msg{
+    padding: 10px;
+    margin: 4px;
+    background-color: #4f4f668c;
+    color: white;
+    max-width: 60%;
+    min-width: 20%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.user-join-left{
+    clear: both;
+    text-align: center;
+}
+.usr{
+    background-color: #5b897a;
+    border-radius: 15px;
+    padding-bottom: 3px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 72%;
+}
+.input-box{
+    width: 77%;
+    border: 3px solid black;
+    border-radius: 13px;
+    height: 34px;
+
+}
+.my-btn{
+    border: 3px solid black;
+    border-radius: 13px;
+    height: 34px;
+    min-width: 6%;
+}
